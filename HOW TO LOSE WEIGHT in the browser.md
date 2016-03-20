@@ -12,7 +12,7 @@ And not just one of those boring guides made for robots, what if we did somethin
 
 That's exactly what we've done! And we'll guide you in this battle to create even faster sites.
 
-我们就是这么做的！并且我们将在这场（网站性能）战役中指引您们编写运行更加快速的网站。
+这正是我们所做的！并且我们将在这场（网站性能）战役中指引大家编写运行更加快速的网站。
 
 — Zeno Rocha, project lead.
 
@@ -20,7 +20,7 @@ That's exactly what we've done! And we'll guide you in this battle to create eve
 ## ？？性能真的那么重要吗？
 Of course it matters and you know it. So why do we keep making slow sites that lead to a bad user experience? This is a community-driven practical guide that will show you how to make websites faster. Let's not waste time showing millionaire performance cases, let's get straight to the point!
 
-当然重要而且您也心知肚明。那为什么我们还要继续编写运行缓慢用户体验糟糕的网站呢？下面是一份社区驱动的实战指南，将会向您展示如何编写响应快速的网站。我们就不浪费时间列举百万级流量的性能案例了，直奔主题吧！
+当然重要而且您也心知肚明。那为什么我们还要继续编写运行缓慢用户体验糟糕的网站呢？下面是一份社区驱动的实战指南，将会向您展示如何编写响应快速的网站。我们就不浪费时间列举[大量需要优化性能的场景](https://github.com/zenorocha/browser-diet/wiki/Impact-of-performance)了，直奔主题吧！
 
 ## HTML
 ### 25 avoid inline/embedded code
