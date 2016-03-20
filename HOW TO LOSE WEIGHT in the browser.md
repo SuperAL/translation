@@ -268,10 +268,11 @@ for (i = 0, len = arr.length; i < len; i++) {
 
 > **What is [jsPerf](https://jsperf.com/)?**
 jsPerf aims to provide an easy way to create and share test cases, comparing the performance of different JavaScript snippets by running benchmarks. 
-[利用jsPerf优化Web应用的性能](https://software.intel.com/zh-cn/articles/optimize-web-app-using-jsperf)
-[Best of jsperf (2000-2013)](http://www.sitepoint.com/jsperf1/)
+>[利用jsPerf优化Web应用的性能](https://software.intel.com/zh-cn/articles/optimize-web-app-using-jsperf)
+>[Best of jsperf (2000-2013)](http://www.sitepoint.com/jsperf1/)
 
 **Note:** *Although modern browsers engines automatically optimize this process, remains a good practice to suit the legacy browsers that still linger.*
+
 **须知：** *尽管如今的浏览器引擎都会自动优化这个过程，为了适应仍旧挥之不去的老旧浏览器引擎，这仍然不失为一个良好实践。*
 
 In iterations over collections in HTML as a list of Nodes (*NodeList*) generated for example by `document.getElementsByTagName('a')` this is particularly critical. These collections are considered "live", i.e. they are automatically updated when there are changes in the element to which they belong.
@@ -325,6 +326,7 @@ This (bad) practice has been abolished for years by developers, but there are st
 ```
 
 **Attention:** *`document.write` performed during or after `window.onload` event replaces the entire content of the current page.*
+
 **注意：** *在 `window.onload` 事件执行期间或执行完毕后执行 `document.write` 将会替换当前页面的所有内容。*
 
 ```html 
@@ -374,7 +376,7 @@ Reflow 消耗最大，因为它是由改变页面布局触发的，如改变一�
 
 > **What is Reflow?**
 > Reflow is the name of the **web browser process** for re-calculating the positions and geometries of elements in the document, for the purpose of re-rendering part or all of the document. Because reflow is a **user-blocking operation** in the browser, it is useful for developers to understand how to improve reflow time and also to understand the effects of various document properties (DOM depth, CSS rule efficiency, different types of style changes) on reflow time.
-[Minimizing browser reflow](https://developers.google.com/speed/articles/reflow)
+>[Minimizing browser reflow](https://developers.google.com/speed/articles/reflow)
 
 There is no doubt that excessive reflows and repaints should be avoided, so instead of doing this:
 
@@ -801,7 +803,7 @@ We hope that after reading this guide you can get your site in shape. :)
 
 And remember, like all things in life, [there's no such thing as a silver bullet](http://www.cs.nott.ac.uk/~cah/G51ISS/Documents/NoSilverBullet.html). Performance tuning of your application is a worthwhile venture, but should not be the sole basis of all your development decisions—at times you'll need to weigh out the costs and benefits.
 
-记住，就像生活中的所有事情，[没有所谓的银弹](http://www.cs.nott.ac.uk/~cah/G51ISS/Documents/NoSilverBullet.html)。应用程序的性能调优是一件值得投入的事情，但不应该是您所有开发决策的唯一考虑依据——有时候您需要权衡利弊。
+记住，就像生活中的所有事情，[没有所谓的良方](http://www.cs.nott.ac.uk/~cah/G51ISS/Documents/NoSilverBullet.html)。应用程序的性能调优是一件值得投入的事情，但不应该是您所有开发决策的唯一考虑依据——有时候您需要权衡利弊。
 
 Want to learn more? Check out the [References](https://github.com/zenorocha/browser-diet/wiki/References) that we used to write this guide.
 
