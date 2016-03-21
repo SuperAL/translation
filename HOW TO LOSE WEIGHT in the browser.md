@@ -110,7 +110,6 @@ In this form, the page has to wait for the script to be fully downloaded, parsed
 
 The script is downloaded asynchronously while the rest of the page continues to get parsed. The script is guaranteed to be executed as soon as the download is complete. Keep in mind that multiple async scripts will be executed in no specific order.
 
-脚本是异步下载页面的其余部分继续得到解析。脚本执行保证一旦下载完成。请记住,多个异步脚本将在任何特定的顺序执行。
 脚本将会异步下载而页面的其他部分则会被继续解析。脚本一旦下载完成就会被执行。请记住，多个异步脚本不会按照指定顺序执行。
 
 *[References-参考](https://github.com/zenorocha/browser-diet/wiki/References#try-out-async)*
